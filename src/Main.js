@@ -1,26 +1,6 @@
 
-function Header() {
-  return (
-    `
-    <header>
-      <h1>Welcome to my website!</h1>
-      <nav>
-        <ul>
-          <li><a href="#">Home</a></li>
-          <li><a href="#">About</a></li>
-          <li><a href="#">Services</a></li>
-          <li><a href="#">Contact</a></li>
-        </ul>
-      </nav>
-    </header>
-  `
-  );
-}
-export default Header;
-
-function Main(){
-  return(
-    `
+function getMainJSX() {
+  const html = `
     <main>
       <section>
         <h2>About Us</h2>
@@ -40,6 +20,8 @@ function Main(){
         </ul>
       </section>
     </main>
-  `
-  );
+  `;
+
+  return htmlToJSX(html);
 }
+getMainJSX()
