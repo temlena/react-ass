@@ -1,11 +1,12 @@
 
-function getMainJSX() {
-  const html = `
+function Main() {
+  var country = "Nigeria";
+  return(
     <main>
       <section>
         <h2>About Us</h2>
         <p>
-          We are a small team of web developers based in the United States. We
+          We are a small team of web developers based in the {country}. We
           specialise in creating modern and responsive websites for businesses
           and individuals.
         </p>
@@ -20,8 +21,6 @@ function getMainJSX() {
         </ul>
       </section>
     </main>
-  `;
-
-  return htmlToJSX(html);
+  )
 }
-getMainJSX()
+export default Main;

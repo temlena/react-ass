@@ -18,3 +18,4 @@ JSX is a javascript extension that react uses to combine html and javascript eas
 JSX makes it easier to create templates 
 It is type-safe and most errors can be found at runtime
 Question 6
+The browser does not understand JSX because it's not a valid javascript code. It uses babel which is a javascript compiler to convert it to browser understandable javascript code.

@@ -1,18 +1,17 @@
-function getHeaderJSX() {
-  const html = `
-    <header>
-      <h1>Welcome to my website!</h1>
-      <nav>
-        <ul>
-          <li><a href="#">Home</a></li>
-          <li><a href="#">About</a></li>
-          <li><a href="#">Services</a></li>
-          <li><a href="#">Contact</a></li>
-        </ul>
-      </nav>
-    </header>
-  `;
+function Header() {
+return(
+  <header>
+    <h1>Welcome to my website!</h1>
+    <nav>
+      <ul>
+        <li><a href="/#">Home</a></li>
+        <li><a href="/#">About</a></li>
+        <li><a href="/#">Services</a></li>
+        <li><a href="/#">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
 
-  return getHeaderJSX(html);
+)
 }
-getHeaderJSX()
+export default Header;
